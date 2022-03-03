@@ -1,6 +1,6 @@
 function makeitBigger()
 {
-    alert("Hello, World!!!");
+    alert("Hello, World!");
     document.getElementById("text").style.fontSize = "24pt";
 }
 
@@ -8,7 +8,7 @@ function makeitBigger()
 {
     document.getElementById("boring").checked  = false;  
     document.getElementById("text").style.fontWeight = "bold";
-    document.getElementById("text").style.color = "0000FF";
+    document.getElementById("text").style.color = "#0000FF";
     document.getElementById("text").style.textDecoration = "underline";
 }
 
