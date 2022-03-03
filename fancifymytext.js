@@ -7,20 +7,20 @@ function makeitBigger()
   function fancy()
 {
     document.getElementById("boring").checked  = false;  
-    document.getElementById("textfield").style.fontWeight = "bold";
-    document.getElementById("textfield").style.color = "0000FF";
-    document.getElementById("textfield").style.textDecoration = "underline";
-    document.getElementById("textfield").style.textTransform = "uppercase";
+    document.getElementById("text").style.fontWeight = "bold";
+    document.getElementById("text").style.color = "0000FF";
+    document.getElementById("text").style.textDecoration = "underline";
+    document.getElementById("text").style.textTransform = "uppercase";
 }
 
 function boring()
 {
     document.getElementById("fancy").checked  = false; 
-    document.getElementById("textfield").style.fontWeight = "normal";
-    document.getElementById("textfield").style.color = "#000000";
-    document.getElementById("textfield").style.textDecoration = "none";
-    document.getElementById("textfield").style.fontSize = "initial";
-    document.getElementById("textfield").style.textTransform = "initial";
+    document.getElementById("text").style.fontWeight = "normal";
+    document.getElementById("text").style.color = "#000000";
+    document.getElementById("text").style.textDecoration = "none";
+    document.getElementById("text").style.fontSize = "initial";
+    document.getElementById("text").style.textTransform = "initial";
 }
 
 function letsMoo() {  
