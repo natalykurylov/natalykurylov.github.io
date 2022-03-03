@@ -10,7 +10,6 @@ function makeitBigger()
     document.getElementById("text").style.fontWeight = "bold";
     document.getElementById("text").style.color = "0000FF";
     document.getElementById("text").style.textDecoration = "underline";
-    document.getElementById("text").style.textTransform = "uppercase";
 }
 
 function boring()
@@ -19,8 +18,7 @@ function boring()
     document.getElementById("text").style.fontWeight = "normal";
     document.getElementById("text").style.color = "#000000";
     document.getElementById("text").style.textDecoration = "none";
-    document.getElementById("text").style.fontSize = "initial";
-    document.getElementById("text").style.textTransform = "initial";
+    document.getElementById("text").style.fontSize = "10pt";
 }
 
 function letsMoo() {  
