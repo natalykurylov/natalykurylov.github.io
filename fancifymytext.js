@@ -6,7 +6,7 @@ function makeitBigger()
 
   function fancy()
 {
-    document.getElementById("betty").checked  = false;  
+    document.getElementById("boring").checked  = false;  
     document.getElementById("textfield").style.fontWeight = "bold";
     document.getElementById("textfield").style.color = "0000FF";
     document.getElementById("textfield").style.textDecoration = "underline";
@@ -14,7 +14,7 @@ function makeitBigger()
     document.getElementById("textfield").style.fontStyle = "Arial";
 }
 
-function betty()
+function boring()
 {
     document.getElementById("fancy").checked  = false; 
 	document.getElementById("textfield").style.fontWeight = "normal";
